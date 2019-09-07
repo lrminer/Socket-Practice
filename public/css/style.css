@@ -67,3 +67,13 @@ button{
     width: 100%;
     border-radius: 0 0 2px 2px;
 }
+
+#player {
+    position: fixed; 
+    /* might want to do a position: relative; if the player is found within a div#map */
+    background: blue;
+    height: 10px;
+    width: 10px;
+    bottom: 0;
+    right: 0;
+}
