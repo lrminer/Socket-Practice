@@ -1,5 +1,6 @@
 // make connection
-const socket = io.connect('http://localhost:2020');
+// const socket = io.connect('http://localhost:2020');
+const socket = io.connect('https://dry-sea-58969.herokuapp.com/');
 
 // query DOM
 
